@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button{
+            margin:20px
+
+        }
+        .main{
+            width:50%;
+            padding: 30px;
+        }
+        button:focus +.main{
+            display: block;
+            
+        }
+        .m{
+            padding:20px;
+            border:1px solid;
+            list-style-type: none;
+            text-align: center;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .main{
+            display: none;
+        }
+    </style>
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+            <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+            <li><a href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a></li>
+            <li><a href="https://www.w3schools.com/python/default.asp">PYTHON</a></li>
+            <li><a href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+            <li><a href="https://www.w3schools.com/java/default.asp">JAVA</a></li>
+            <li><a href="https://www.w3schools.com/cpp/default.asp">C++</a></li>
+            <li><a href="https://www.w3schools.com/mysql/default.asp">MYSQL</a></li>
+            <li><a href="https://www.w3schools.com/nodejs/default.asp">NODE.JS</a></li>
+            <li><a href="https://www.w3schools.com/react/default.asp">REACT</a></li>
+            <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BOOTSTRAP</a></li>
+            <li><a href="https://www.w3schools.com/excel/index.php">EXCEL</a></li>
+            <li><a href="https://www.w3schools.com/jquery/default.asp">JQUERY</a></li>
+            <li><a href="https://www.w3schools.com/python/numpy/default.asp">NUMPY</a></li>
+           
+        </ul>
+    </nav>
+    <button>click me</button>
+    <div class="main">
+        <ul>
+            <li id="m"><a href="">ABOUT ME</a></li>
+            <li id="m"><a href="">CONTACT</a></li>
+            <li id="m"><a href="">RESOURCES</a></li>
+        </ul>
+    </div>
+</body>
+</html>
